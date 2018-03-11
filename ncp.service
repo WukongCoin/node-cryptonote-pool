@@ -5,7 +5,7 @@ After=docker.service
 
 [Service]
 ;EnvironmentFile=-/etc/default/my-application
-ExecStart=/home/wenew/node-v0.10.33-linux-x64/bin/node /home/wenew/node-cryptonote-pool/init.js
+ExecStart=/home/wenew/node-v0.10.45-linux-x64/bin/node /home/wenew/node-cryptonote-pool/init.js
 WorkingDirectory=/home/wenew/node-cryptonote-pool
 LimitNOFILE=4096
 IgnoreSIGPIPE=false
